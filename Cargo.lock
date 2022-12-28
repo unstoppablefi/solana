@@ -3573,12 +3573,12 @@ dependencies = [
 
 [[package]]
 name = "prost"
-version = "0.11.0"
+version = "0.11.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "399c3c31cdec40583bb68f0b18403400d01ec4289c383aa047560439952c4dd7"
+checksum = "c01db6702aa05baa3f57dec92b8eeeeb4cb19e894e73996b32a4093289e54592"
 dependencies = [
  "bytes",
- "prost-derive 0.11.0",
+ "prost-derive 0.11.5",
 ]
 
 [[package]]
@@ -3614,8 +3614,8 @@ dependencies = [
  "log",
  "multimap",
  "petgraph",
- "prost 0.11.0",
- "prost-types 0.11.1",
+ "prost 0.11.5",
+ "prost-types 0.11.5",
  "regex",
  "tempfile",
  "which",
@@ -3636,9 +3636,9 @@ dependencies = [
 
 [[package]]
 name = "prost-derive"
-version = "0.11.0"
+version = "0.11.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7345d5f0e08c0536d7ac7229952590239e77abf0a0100a1b1d890add6ea96364"
+checksum = "c8842bad1a5419bca14eac663ba798f6bc19c413c2fdceb5f3ba3b0932d96720"
 dependencies = [
  "anyhow",
  "itertools",
@@ -3659,12 +3659,12 @@ dependencies = [
 
 [[package]]
 name = "prost-types"
-version = "0.11.1"
+version = "0.11.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4dfaa718ad76a44b3415e6c4d53b17c8f99160dcb3a99b10470fce8ad43f6e3e"
+checksum = "017f79637768cde62820bc2d4fe0e45daaa027755c323ad077767c6c5f173091"
 dependencies = [
  "bytes",
- "prost 0.11.0",
+ "prost 0.11.5",
 ]
 
 [[package]]
@@ -5604,7 +5604,7 @@ dependencies = [
  "matches",
  "num_cpus",
  "num_enum",
- "prost 0.11.0",
+ "prost 0.11.5",
  "rand 0.7.3",
  "rand_chacha 0.2.2",
  "rayon",
@@ -6550,8 +6550,8 @@ dependencies = [
  "hyper-proxy",
  "log",
  "openssl",
- "prost 0.11.0",
- "prost-types 0.11.1",
+ "prost 0.11.5",
+ "prost-types 0.11.5",
  "serde",
  "serde_derive",
  "smpl_jwt",
@@ -6572,7 +6572,7 @@ dependencies = [
  "bincode",
  "bs58",
  "enum-iterator",
- "prost 0.11.0",
+ "prost 0.11.5",
  "protobuf-src",
  "serde",
  "solana-account-decoder",
@@ -7693,8 +7693,8 @@ dependencies = [
  "hyper-timeout",
  "percent-encoding 2.1.0",
  "pin-project",
- "prost 0.11.0",
- "prost-derive 0.11.0",
+ "prost 0.11.5",
+ "prost-derive 0.11.5",
  "rustls-pemfile 1.0.0",
  "tokio",
  "tokio-rustls 0.23.3",
