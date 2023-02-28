@@ -11,7 +11,7 @@ description = "Tool to send various requests to cluster in order to evaluate the
 
 [dependencies]
 bincode = { workspace = true }
-clap = { version = "3.1.5", features = ["derive", "cargo"] }
+clap = { version = "3.1.8", features = ["derive", "cargo"] }
 crossbeam-channel = { workspace = true }
 itertools = { workspace = true }
 log = { workspace = true }
